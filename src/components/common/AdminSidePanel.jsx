@@ -12,6 +12,7 @@ const SideNavigation = () => (
           to={ADMIN_PRODUCTS}
         >
           Products
+          
         </NavLink>
       </div>
       <div className="sidenavigation-item">
