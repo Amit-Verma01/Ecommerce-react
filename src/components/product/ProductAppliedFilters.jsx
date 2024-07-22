@@ -24,7 +24,7 @@ const ProductAppliedFilters = ({ filteredProductsCount }) => {
   };
 
   const onRemoveSortFilter = () => {
-    dispatch(applyFilter({ sortBy: '' }));
+    dispatch(applyFilter({ sortBy: ''}));
   };
 
   return !isFiltered ? null : (

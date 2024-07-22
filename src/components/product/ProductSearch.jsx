@@ -27,7 +27,7 @@ const ProductSearch = () => {
     const val = e.target.value.trim();
     input = val;
 
-    if (val === '' && productsLength !== 0) {
+    if (val === '' && productsLength !== 0){
       dispatch(setTextFilter(val));
       history.push('/');
     }

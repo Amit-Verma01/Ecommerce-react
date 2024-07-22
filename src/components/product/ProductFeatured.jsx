@@ -21,7 +21,7 @@ const ProductFeatured = ({ product }) => {
               className="product-card-img"
               src={product.image}
             />
-          ) : <Skeleton width="100%" height="100%" />}
+          ) : <Skeleton width="100%" height="100%"/>}
         </div>
         <div className="product-display-details">
           <h2>{product.name || <Skeleton width={80} />}</h2>
