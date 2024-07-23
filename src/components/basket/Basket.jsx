@@ -135,7 +135,7 @@ const Basket = () => {
           </div>
           <button
             className="basket-checkout-button button"
-            disabled={basket.length === 0 || pathname === '/checkout'}
+            disabled={basket.length === 0 || pathname === ''}
             onClick={onCheckOut}
             type="button"
           >
