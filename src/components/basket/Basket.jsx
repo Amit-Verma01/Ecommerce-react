@@ -57,8 +57,8 @@ const Basket = () => {
   return user && user.role === 'ADMIN' ? null : (
     <Boundary>
       <Modal
-        isOpen={isOpenModal}
-        onRequestClose={onCloseModal}
+        // isOpen={isOpenModal}
+        // onRequestClose={onCloseModal}
       >
         <p className="text-center">You must sign in to continue checking out</p>
         <br />
@@ -135,7 +135,7 @@ const Basket = () => {
           </div>
           <button
             className="basket-checkout-button button"
-            disabled={basket.length === 0 || pathname === ''}
+            // disabled={basket.length === 0 || pathname === ''}
             onClick={onCheckOut}
             type="button"
           >
