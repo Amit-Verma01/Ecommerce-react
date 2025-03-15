@@ -33,7 +33,7 @@ const Footer = () => {
         <strong>
           <span>
             Fork this project &nbsp;
-            <a href="https://github.com/Amit-Verma01">HERE</a>
+            <a href="https://github.com/Amit-Verma01/Ecommerce-react.git">HERE</a>
           </span>
         </strong>
       </div>
